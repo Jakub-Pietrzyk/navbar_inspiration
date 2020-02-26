@@ -1,0 +1,28 @@
+#main{
+  background: #77775f;
+}
+
+.landing{
+  height: 75vh ;
+  width: 100vw;
+  background: url("../images/landing-back.JPG");
+  background-size: 100vw 120vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+.landing-text{
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  font-size: 70px;
+  z-index: 3;
+}
+
+.landing-triangles{
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+}
